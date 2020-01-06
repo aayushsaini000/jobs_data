@@ -14,7 +14,7 @@ BOT_NAME = 'indeed_scraper'
 SPIDER_MODULES = ['indeed_scraper.spiders']
 NEWSPIDER_MODULE = 'indeed_scraper.spiders'
 
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36'
+USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'indeed_scraper (+http://www.yourdomain.com)'

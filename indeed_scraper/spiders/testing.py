@@ -12,7 +12,7 @@ class jobsSpider(scrapy.Spider):
         }
     }
     headers = {
-    'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
     'appid':'121',
     'systemid':'Naukri'
     }
@@ -21,9 +21,9 @@ class jobsSpider(scrapy.Spider):
                 #'https://www.naukri.com/accounting-jobs?xt=catsrch&qf[]=1',
                 #'https://www.naukri.com/bank-jobs?xt=catsrch&qf[]=6'
                 #'https://www.naukri.com/hr-jobs?xt=catsrch&qf[]=12',
-                'https://www.naukri.com/application-programming-jobs?xt=catsrch&qf[]=24.01',
-                #'https://www.naukri.com/information-technology-jobs?xt=catsrch&qf[]=24',
-                #'https://www.naukri.com/bpo-jobs?xt=catsrch&qf[]=8',
+                #'https://www.naukri.com/application-programming-jobs?xt=catsrch&qf[]=24.01',
+                'https://www.naukri.com/information-technology-jobs?xt=catsrch&qf[]=24',
+                'https://www.naukri.com/bpo-jobs?xt=catsrch&qf[]=8',
                 #'https://www.naukri.com/marketing-jobs?xt=catsrch&qf[]=15',
                 #'https://www.naukri.com/pharma-jobs?xt=catsrch&qf[]=16',
                 #'https://www.naukri.com/maintenance-jobs?xt=catsrch&qf[]=19',
